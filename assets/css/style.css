@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Header Section */
+.custom-n{
+    background-color: cornflowerblue;
+}
+/* hero section  */
+.img{
+    display: flex;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 500px;
+    margin-left: 80px;
+  
+}
+.container-fluid{
+    background-color: cornflowerblue; 
+    height: 600px;
+    width: 100%;
+}
+/* Abuot Section  */
+.custom-h{
+   text-align: center;
+}
+.text{
+    margin-bottom: 10rem;
+}
+/* Service Section */
+.service-section{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 9rem;
+}
+.service-s {
+    width: 100%;
+}
+.custom-s{
+    height: 250px;
+    width: 23%;
+    border: 1px solid black;
+    margin-right: 26px;
+    border-radius: 5px;
+    box-shadow:4px 5px 15px rgb(97, 96, 97);
+}
+/* .text-1{
+    display: block;
+    text-align: center;
+} */
+
+/* Work Section */
+.custom-s1{
+    height: 250px;
+    width: 23%;
+    border: 1px solid black;
+    /* display: flex;
+    float: left; */
+    margin-right: 26px;
+    border-radius: 3px;
+    box-shadow:1px 2px 15px rgb(97, 96, 97);  
+}
+.custom-i{
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.work-section{
+    margin-bottom: 10rem;
+}
+
+/* Team Section */
+.custom-s2{
+    height: 250px;
+    width: 48%;
+    border: 1px solid black;
+    margin-right: 26px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    box-shadow:1px 2px 8px rgb(97, 96, 97);  
+}
+.team-section{
+    margin-bottom: 10rem;
+}
+
+/* Contact Section */
+.custom-s3{
+    height: 500px;
+    width: 50%;
+    border: 1px solid black;
+    /* margin-right: 26px; */
+    border-radius: 3px;
+    box-shadow:1px 2px 8px rgb(97, 96, 97);  
+}
+.contact-section{
+    margin-bottom: 10rem;
+}
+
+/* Footer Section */
