@@ -92,8 +92,16 @@
 
 /* Contact Section */
 .custom-s3{
-    height: 500px;
-    width: 50%;
+    height: 650px;
+    width: 44%;
+    border: 1px solid black;
+    margin-right: 26px;
+    border-radius: 3px;
+    box-shadow:1px 2px 8px rgb(97, 96, 97);  
+}
+.custom-s4{
+    height: 650px;
+    width: 54%;
     border: 1px solid black;
     /* margin-right: 26px; */
     border-radius: 3px;
@@ -102,5 +110,7 @@
 .contact-section{
     margin-bottom: 10rem;
 }
-
+.custom-con{
+    margin-left: 20px;
+}
 /* Footer Section */
