@@ -32,6 +32,7 @@
 .text{
     margin-bottom: 10rem;
 }
+
 /* Service Section */
 .service-section{
     width: 100%;
@@ -50,16 +51,27 @@
     box-shadow:4px 5px 15px rgb(97, 96, 97);
     border: none;
 }
+.custom-s:hover{
+    box-shadow: 10px 8px 7px 5px #8a8fac;
+    transition: all 500ms ease;
+    background-color: #bac2f5;
+}
 .text-1{
     text-align: center;
     margin-top: 35px;
     font-weight: 600;
-    color: cornflowerblue;
+    color: rgb(17, 88, 220);
+}
+.text-1:hover{
+    color: rgb(4, 4, 4); 
 }
 .text-2{
     text-align: center;
     margin-top: 20px;
     font-weight: 600;
+}
+.text-2:hover{
+    color: rgb(245, 246, 248);
 }
 
 /* Work Section */
