@@ -1,4 +1,6 @@
-*{
+*,
+*:before,
+*:after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,6 +10,30 @@
 .custom-n{
     background-color: cornflowerblue;
 }
+.nav-link{
+    color: #f9f2f2;
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1.4px;
+}
+.nav-link:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(3, 3, 75);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+.nav-link:hover{
+    color: antiquewhite;
+}
+.nav-link:hover:after{
+    width: 100%;
+}
+
 /* hero section  */
 .img{
     display: flex;
