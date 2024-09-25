@@ -28,7 +28,7 @@
     transition: 0.3s;
 }
 .nav-link:hover{
-    color: antiquewhite;
+    color: rgb(197, 244, 248);
 }
 .nav-link:hover:after{
     width: 100%;
@@ -44,8 +44,24 @@
     height: 500px;
     width: 500px;
     margin-left: 80px;
+    /* animation: 5s linear 2s infinite alternate none running rightmovement; */
   
 }
+
+/* @keyframes rightmovement {
+    from {
+        top: 0;
+        bottom: 200px;                          from this source styling and Initial State
+        
+    }
+
+    to {
+        top: 0;
+        bottom: 200px;                      to this destination styling and Destination State
+       
+    }
+} */
+
 .container-fluid{
     background-color: cornflowerblue; 
     height: 600px;
@@ -57,6 +73,22 @@
 }
 .text{
     margin-bottom: 10rem;
+}
+.title-a{
+    position: relative;
+    font-size: 40px;
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+}
+.title-a:after{
+    content: "";
+    position: absolute;
+    background-color: cornflowerblue;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
 }
 
 /* Service Section */
@@ -99,6 +131,22 @@
 }
 .text-2:hover{
     color: rgb(245, 246, 248);
+}
+.title-b{
+    position: relative;
+    font-size: 40px;
+    letter-spacing: 1.4px;
+    margin-bottom: 15px;
+}
+.title-b:after{
+    content: "";
+    position: absolute;
+    background-color: cornflowerblue;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
 }
 
 /* Work Section */
@@ -261,3 +309,10 @@
 }
 
 /* Footer Section */
+.links{
+    text-decoration: none;
+    color: black;
+}
+.custom-1{
+    color: rgb(47, 112, 233);
+}
