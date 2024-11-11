@@ -35,7 +35,7 @@
 }
 
 /* hero section  */
-.img{
+.custom-img1{
     display: flex;
     float: right;
     background-repeat: no-repeat;
@@ -43,22 +43,39 @@
     background-position: center;
     height: 500px;
     width: 500px;
-    margin-left: 80px;
-    /* animation: 5s linear 2s infinite alternate none running rightmovement; */
-  
+    margin-left: 90px;
 }
-
-/* @keyframes rightmovement {
-    from {
-        top: 0;
-        bottom: 200px;                          from this source styling and Initial State
-        
+/* @media screen and (max-width:992px) {
+    .custom-img1{
+        height: 400px;
+        width: 400px;
     }
-
-    to {
-        top: 0;
-        bottom: 200px;                      to this destination styling and Destination State
-       
+}
+@media screen and (max-width:776px) {
+    .custom-img1{
+        height: 300px;
+        width: 300px;
+    }
+} */
+/* @media screen and (max-width:1200px) {
+    .custom-img1{
+        height: 400px;
+        width: 200px;
+        margin-right: 100px;
+    }
+} */
+/* @media screen and (max-width:1081px) {
+    .custom-img1{
+        height: 400px;
+        width: 200px;
+        margin-right: 100px;
+    }
+}
+@media screen and (max-width:933px) {
+    .custom-img1{
+        height: 300px;
+        width: 200px;
+        margin-right: 100px;
     }
 } */
 
@@ -67,6 +84,32 @@
     height: 600px;
     width: 100%;
 }
+/* @media screen and (max-width:1284px) {
+    .container-fluid{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .custom-head{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:1203px) {
+    .custom-head{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:992px) {
+    .custom-head{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:776px) {
+    .custom-head{
+        font-size: 15px;
+    }
+} */
 /* Abuot Section  */
 .custom-h{
    text-align: center;
@@ -108,6 +151,16 @@
     border-radius: 5px;
     box-shadow:0px 2px 10px rgb(97, 96, 97);
     border: none;
+}
+@media screen and (max-width:1400px) {
+    .custom-s{       
+        width: 22.7%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .custom-s{       
+        width: 22.2%;
+    }
 }
 .custom-s:hover{
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -152,7 +205,7 @@
 /* Work Section */
 .custom-s1{
     height: 250px;
-    width: 23%;
+    width: 303px;
     border: 1px solid black;
     /* display: flex;
     float: left; */
@@ -171,16 +224,13 @@
 }
 .intro{
     height: 150px;
-    width: 280px;
+    width: 303px;
     padding: 6px;
-    /* margin-right: 26px; */
-    border: 1px solid black;
     box-sizing: border-box;
     position: absolute;
     background: rgba(87, 84, 84, 0.5);
-    box-shadow:5px 2px 10px rgb(176, 173, 176); 
+    /* box-shadow:5px 2px 10px rgb(176, 173, 176);  */
     color: white;
-    border: none;
     /* bottom: 150px; */
 
 }
@@ -190,25 +240,9 @@
     /* visibility: hidden;
     opacity: 0; */
 }
-/* .custom-s1 .intro{
-    opacity: 0;
-    position: absolute;
-    left: 12px;
-    right: 12px;
-    bottom: -100%;
-    z-index: 3;
-    transition: all ease-in-out 0.5s;
-    background: color-mix(in srgb, var(--background-color), transparent 10%);
-    padding: 15px;
-} */
-
-/* .custom-s1 .intro:hover{
+.custom-s1:hover{
     cursor: pointer;
 }
-.custom-s1 .intro:hover{
-    height: 150px;
-    bottom: 150px;
-} */
 .work-section{
     margin-bottom: 10rem;
 }
@@ -316,3 +350,5 @@
 .custom-1{
     color: rgb(47, 112, 233);
 }
+
+
