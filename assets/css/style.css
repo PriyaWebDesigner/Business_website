@@ -205,7 +205,7 @@
 /* Work Section */
 .custom-s1{
     height: 250px;
-    width: 303px;
+    width: 259px;
     border: 1px solid black;
     /* display: flex;
     float: left; */
@@ -213,7 +213,7 @@
     border-radius: 3px;
     box-shadow:1px 2px 15px rgb(97, 96, 97); 
     border: none; 
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .custom-i{
     height: 250px;
@@ -223,8 +223,8 @@
     background-position: center;
 }
 .intro{
-    height: 150px;
-    width: 303px;
+    height: 180;
+    width: 250px;
     padding: 6px;
     box-sizing: border-box;
     position: absolute;
@@ -236,12 +236,22 @@
 }
 
 .custom-h1{
-    font-size: 18px;
+    /* font-size: 18px; */
     /* visibility: hidden;
     opacity: 0; */
 }
 .custom-s1:hover{
     cursor: pointer;
+}
+.custom-s1:hover .intro{
+    height: 180px;
+    width: 250px;
+    bottom: 150px;
+    background: rgb(27, 27, 27, 5);
+}
+.custom-s1:hover .custom-h1{
+    visibility: visible;
+    opacity: 1;
 }
 .work-section{
     margin-bottom: 10rem;
@@ -250,7 +260,7 @@
 /* Team Section */
 .custom-s2{
     height: 250px;
-    width: 48%;
+    width: 47.7%;
     border: 1px solid black;
     margin-right: 26px;
     margin-bottom: 15px;
@@ -293,8 +303,8 @@
 
 /* Contact Section */
 .custom-s3{
-    height: 650px;
-    width: 44%;
+    height: 620px;
+    width: 43%;
     border: 1px solid black;
     margin-right: 26px;
     border-radius: 3px;
@@ -302,7 +312,7 @@
     border: none;
 }
 .custom-s4{
-    height: 650px;
+    height: 620px;
     width: 54%;
     border: 1px solid black;
     /* margin-right: 26px; */
