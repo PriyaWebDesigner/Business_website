@@ -231,14 +231,15 @@
     background: rgba(87, 84, 84, 0.5);
     /* box-shadow:5px 2px 10px rgb(176, 173, 176);  */
     color: white;
-    /* bottom: 150px; */
+    transition: .5s;
+    bottom: 150px;
 
 }
 
 .custom-h1{
-    /* font-size: 18px; */
-    /* visibility: hidden;
-    opacity: 0; */
+    font-size: 18px;
+    visibility: hidden;
+    opacity: 0;
 }
 .custom-s1:hover{
     cursor: pointer;
@@ -252,6 +253,9 @@
 .custom-s1:hover .custom-h1{
     visibility: visible;
     opacity: 1;
+}
+.custom-s1:hover .custom-i{
+    transform: scale(1.1) rotate(-3deg);
 }
 .work-section{
     margin-bottom: 10rem;
